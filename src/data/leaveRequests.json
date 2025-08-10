@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "employee": "Sonia Mehta",
+    "leaveType": "Annual",
+    "from": "2025-08-10",
+    "to": "2025-08-12",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "employee": "Ravi Kumar",
+    "leaveType": "Sick",
+    "from": "2025-07-21",
+    "to": "2025-07-22",
+    "status": "Approved"
+  }
+]

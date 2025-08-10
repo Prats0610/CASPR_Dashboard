@@ -1,0 +1,72 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Anita Sharma",
+      "email": "anita.sharma@example.com",
+      "department": "Engineering",
+      "role": "Frontend Engineer",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "department": "HR",
+      "role": "HR Manager",
+      "status": "Active"
+    },
+    {
+      "id": "b065",
+      "name": "prats",
+      "email": "verma@gmail.com",
+      "department": "engineering",
+      "role": "engineer",
+      "status": "Active"
+    },
+    {
+      "id": "7de5",
+      "name": "pratsTest",
+      "email": "verma1@gmail.com",
+      "department": "engineering",
+      "role": "engineer",
+      "status": "Active"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "1",
+      "employee": "Sonia Mehta",
+      "leaveType": "Annual",
+      "from": "2025-08-10",
+      "to": "2025-08-12",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "employee": "Ravi Kumar",
+      "leaveType": "Sick",
+      "from": "2025-07-21",
+      "to": "2025-07-22",
+      "status": "Approved"
+    },
+    {
+      "id": "c5b0",
+      "employeeId": "b065",
+      "employee": "prats",
+      "from": "2025-08-11",
+      "to": "2025-08-12",
+      "leaveType": "sick",
+      "status": "Pending"
+    },
+    {
+      "id": "ea55",
+      "employeeId": "7de5",
+      "employee": "pratsTest",
+      "from": "2025-08-12",
+      "to": "2025-08-13",
+      "leaveType": "sick",
+      "status": "Pending"
+    }
+  ]
+}
