@@ -49,6 +49,26 @@ index.css # Tailwind import + v4 dark variant`
 - LeaveRequests: GET/POST/PATCH/DELETE http://localhost:5000/leaveRequests
 - Note: IDs in db.json can be strings; the app handles string/number IDs.
 
+### Setup
+
+- Open a terminal and run the following command to start the mock backend server:
+  `npx json-server --watch db.json --port 5000
+`
+- In a new terminal window, run the following command to start the frontend development server:
+  `npm run dev`
+
+- Your application will now be running locally.
+
+## Firebase Setup
+
+- Create a .env file in the root of your project (this file is not pushed to Git for security).
+  `VITE_FIREBASE_API_KEY=your_api_key_here
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain_here
+VITE_FIREBASE_PROJECT_ID=your_project_id_here
+VITE_FIREBASE_APP_ID=your_app_id_here`
+- Your app reads these variables via import.meta.env
+- To run your app locally with Firebase, after adding .env file, start the development server.
+
 ### Testing
 
 - Vitest + @testing-library/react
